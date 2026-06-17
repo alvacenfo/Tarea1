@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/trono.png) center 20%/cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 3px solid #414141;
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    color: #d4af37; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+/*Mnu de navegacion*/
+nav {
+    background-color: #000;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+    border-bottom: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+main section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.1rem;
+    color: #d4af37; 
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.westMap {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #7e6820;
+    text-decoration: none; 
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: block;      
+    width: max-content;  
+    margin: 40px auto 0; 
+}
+
+#reyes {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/rob2.png) center/cover no-repeat;
+    width: 100%;
+    max-width: none;
+    padding: 40px 0;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.ficha {
+    background: #3d3d3d;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 3px solid #d4af37;
+}
+
+/*tabla*/
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #414141;
+}
+
+.tabla th, .tabla td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.tabla th {
+    background-color: #000;
+    color: #d4af37
+}
+
+/*Lista*/
+.crono {
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+.crono li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+/*invitaciones*/
+.event {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.inv {
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(img/ttv.png) center 20%/cover;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 3px solid #d437c7;
+}
+
+.importante {
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(img/escudos.png) center 20%/cover;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 3px solid #d4c937;
+}
+
+#blackwater {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/cinco.png) center/cover no-repeat;
+    width: 80%;
+    max-width: none;
+    padding: 40px 0;
+}
+.cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+.twitch {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #e729be;
+    text-decoration: none; 
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: block;      
+    width: max-content;  
+    margin: 40px auto 0; 
+}
+
+.impo {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    color: #000000;
+    background-color: #afbe28;
+    text-decoration: none; 
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: block;      
+    width: max-content;  
+    margin: 40px auto 0; 
+}
+
+
+
+.footer {
+    background-color: #000;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 3px solid #ffd000;
+}
+
+.footer p {
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
